@@ -21,7 +21,6 @@ export function filtrarLivros() {
 
     
     const valorTotal = calcularValorTotalDeLivrosDisponiveis(livrosFiltrados)
-    console.log(valorTotal)
     exibirValorTotalDosLivrosDisponiveis(valorTotal)
     categoria === 'disponivel' ? exibirValorTotalDosLivrosDisponiveis(valorTotal) : valorTotalDosLivrosDisponiveis.innerHTML = ""
 
